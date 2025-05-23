@@ -5,12 +5,6 @@
 - [Key Features](#key-features)
 - [Architecture](#architecture)
 - [Installation](#installation)
-- [Core Components](#core-components)
-- [Getting Started](#getting-started)
-- [Configuration Management](#configuration-management)
-- [Example Playbooks](#example-playbooks)
-- [Best Practices](#best-practices)
-- [Troubleshooting](#troubleshooting)
 - [Resources](#resources)
 
 ## What is Ansible?
