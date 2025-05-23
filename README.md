@@ -38,3 +38,29 @@ This repository serves as a comprehensive Ansible automation hub containing batt
 - Configuration management strategies
 - Infrastructure as Code best practices
 - Integration with cloud platforms (AWS, Azure, GCP)
+
+
+## Topics Covered
+
+```
+ansible-topics/
+├── 01_Introduction.md
+├── 02_Inventory.md
+├── 03_Playbooks.md
+├── 04_Modules.md
+├── 05_Variables.md
+├── 06_Conditions.md
+├── 07_Loops.md
+├── 08_Modularization.md
+├── 09_Roles.md
+├── 10_Asynchronous_Actions.md
+├── 11_Strategies.md
+├── 12_Error_Handling.md
+├── 13_Templating.md
+├── 14_Vault.md
+├── 15_Lookups.md
+├── 16_Dynamic_Inventory.md
+├── 17_Custom_Module.md
+├── 18_Become.md
+```
+
