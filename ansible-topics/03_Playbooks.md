@@ -123,29 +123,20 @@ git clone https://github.com/DevOpswithAnkita/linux-server-monitor.git
 
 ## Module Reference Summary
 
-### `- name:`
-
-Describes what the task does, making your playbook easier to understand.
-
-### `shell:`
-
-Runs any shell command on the remote server like `ls`, `df -h`, `uptime`, etc.
-
-### `file:`
-
-Used to create, delete, or modify files and directories on remote systems.
-
-### `copy:`
-
-Copies a file from the local machine to the remote server.
-
-### `fetch:`
-
-Copies a file from the remote server back to your local machine.
-
-### `debug:`
-
-Prints simple messages in the Ansible output.
+| Section | What It Does |
+|--------|---------------|
+| `- name:` | Human-readable description of what the task is doing. |
+| `hosts:` | Defines which servers to run this playbook on. |
+| `become:` | Whether to use sudo (admin privileges). |
+| `vars:` | Defines variables used in tasks. |
+| `tasks:` | List of actions to perform on the servers. |
+| `copy:` | Transfers files from your computer to the servers. |
+| `shell:` | Runs shell commands on remote machines. |
+| `file:` | Manages files or directories (create/delete/modify). |
+| `fetch:` | Brings files from the servers to your local machine. |
+| `debug:` | Prints messages in the terminal during execution. |
+| `delegate_to:` | Runs a task locally instead of on the remote server. |
+| `run_once:` | Ensures a task runs just one time, not on every host. |
 
 ---
 
